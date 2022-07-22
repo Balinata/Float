@@ -205,4 +205,27 @@ margin: 0 15px 0 0;
     float: right;
 }
 
+.threef .fu-block {
+    width: 200px;
+    height: 200px;
+    margin: 0 15px;
+    margin-left: 0;
+}
 
+.threef .fi-block {
+    width: 200px;
+    height: 200px;
+    margin: 0 15px;
+}
+
+.threef .fo-block {
+    width: 200px;
+    height: 200px;
+    margin: 0 15px;
+}
+
+.threef .fp-block {
+    width: 200px;
+    height: 200px;
+    margin-right: 0;
+}
