@@ -10,17 +10,30 @@
     clear: both;
 }
 
+/* .parent1:after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+.parent {
+    position: absolute;
+    width: 1000px;
+    height: 200px;
+    background: #E6E6E6;
+}
+
 .block {
     width: 200px;
     height: 200px;
     background: #FC8F8F;
 }
 
-.fl-block {
+.parent .fl-block {
     float: left;
 }
 
-.fr-block {
+.parent .fr-block {
     float: right;
 }
 
@@ -49,3 +62,133 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+.floyat:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.floyat {
+    position: absolute;
+    display:inline;
+    width: 1000px;
+    height: 200px;
+    background: #E6E6E6;
+    margin: 10px 10px;
+    display: inline-flex;
+    margin: 20% 0 ;
+}
+
+.fq-block {
+    float: left;
+}
+
+.fw-block .fe-block .ft-block .fy-block {
+    float: right;
+}
+
+.fq-block>p {
+    position: absolute;
+    width: 200px;
+    height: 75px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fw-block>p {
+    position: absolute;
+    width: 100px;
+    height: 37.5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fe-block>p {
+    position: absolute;
+    width: 100px;
+    height: 37.5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.ft-block>p {
+    position: absolute;
+    width: 100px;
+    height: 37.5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fy-block>p {
+    position: absolute;
+    width: 100px;
+    height: 37.5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.floyat .fq-block {
+float: left;
+}
+
+.floyat .fw-block {
+float: right;
+width: 100px;
+height: 100px;
+margin: 0 15px;
+margin-left: 300px;
+}
+
+.floyat .fe-block {
+float: right;
+width: 100px;
+height: 100px;
+margin: 0 15px 0 0;
+}
+
+.floyat .ft-block {
+float: right;
+width: 100px;
+height: 100px;
+margin: 0 15px 0 0;
+}
+
+.floyat .fy-block {
+float: right;
+width: 100px;
+height: 100px;
+margin: 0 15px 0 0;
+}
+
+/* .threef {
+    position: absolute;
+    width: 1000px;
+    height: 200px;
+    background: #E6E6E6;
+} */
