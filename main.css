@@ -1,0 +1,41 @@
+*,
+*::after,
+::before {
+    box-sizing: border-box;
+}
+
+.parent:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.block{
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+    left: -616px;
+    top: -380px;
+}
+
+.fl-block{
+    float: left;
+}
+
+.fr-block{
+    float: right;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    background: #FC8F8F;
+}
+
+.fl-block{
+    float: left;
+}
+
+.fr-block{
+    float: right;
+}
