@@ -57,12 +57,6 @@
     color: #FFFFFF;
 }
 
-.floyat:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
 .floyat {
     position: absolute;
     display:inline;
@@ -149,6 +143,7 @@
 
 .floyat .fq-block {
 float: left;
+margin-right: 35%;
 }
 
 .floyat .fw-block {
@@ -156,7 +151,6 @@ float: right;
 width: 100px;
 height: 100px;
 margin: 0 15px;
-margin-left: 300px;
 }
 
 .floyat .fe-block {
@@ -177,13 +171,6 @@ margin: 0 15px 0 0;
 float: right;
 width: 100px;
 height: 100px;
-margin: 0 15px 0 0;
-}
-
-.floyat:after {
-    content: "";
-    display: block;
-    clear: both;
 }
 
 .threef {
@@ -200,24 +187,78 @@ margin: 0 15px 0 0;
 .threef .fu-block {
     width: 200px;
     height: 200px;
-    margin: 0 15px;
+    margin: 0 10px;
     margin-left: 0;
 }
 
 .threef .fi-block {
     width: 200px;
     height: 200px;
-    margin: 0px;
+    margin: 0 5px;
 }
 
 .threef .fo-block {
     width: 200px;
     height: 200px;
     margin: 0 15px;
+    margin-left: 16.5%;
+    
 }
 
 .threef .fp-block {
     width: 200px;
     height: 200px;
-    margin-left: 15.5%;
 }
+
+.fu-block>p {
+    position: absolute;
+    width: 200px;
+    height: 75px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fi-block>p {
+    position: absolute;
+    width: 200px;
+    height: 75px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fo-block>p {
+    position: absolute;
+    width: 200px;
+    height: 75px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fp-block>p {
+    position: absolute;
+    width: 200px;
+    height: 75px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
