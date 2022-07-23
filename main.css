@@ -197,14 +197,6 @@ margin: 0 15px 0 0;
     margin: 40% 0 ;
 }
 
-.fu-block .fi-block {
-    float: left;
-}
-
-.fo-block .fp-block {
-    float: right;
-}
-
 .threef .fu-block {
     width: 200px;
     height: 200px;
@@ -215,7 +207,7 @@ margin: 0 15px 0 0;
 .threef .fi-block {
     width: 200px;
     height: 200px;
-    margin: 0 15px;
+    margin: 0px;
 }
 
 .threef .fo-block {
@@ -227,5 +219,5 @@ margin: 0 15px 0 0;
 .threef .fp-block {
     width: 200px;
     height: 200px;
-    margin-right: 0;
+    margin-left: 15.5%;
 }
