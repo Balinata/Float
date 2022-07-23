@@ -57,7 +57,7 @@
     color: #FFFFFF;
 }
 
-.floyat {
+.float {
     position: absolute;
     display:inline;
     width: 1000px;
@@ -141,33 +141,33 @@
     color: #FFFFFF;
 }
 
-.floyat .fq-block {
+.float .fq-block {
 float: left;
-margin-right: 35%;
+margin-right: 34%;
 }
 
-.floyat .fw-block {
+.float .fw-block {
 float: right;
 width: 100px;
 height: 100px;
 margin: 0 15px;
 }
 
-.floyat .fe-block {
+.float .fe-block {
 float: right;
 width: 100px;
 height: 100px;
 margin: 0 15px 0 0;
 }
 
-.floyat .ft-block {
+.float .ft-block {
 float: right;
 width: 100px;
 height: 100px;
 margin: 0 15px 0 0;
 }
 
-.floyat .fy-block {
+.float .fy-block {
 float: right;
 width: 100px;
 height: 100px;
